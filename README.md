@@ -1,5 +1,5 @@
 # HexletCode
-
+Hexlet Code is a Ruby library for generating HTML forms. It allows you to easily create forms based on Ruby objects.
 
 ## Installation
 
@@ -38,3 +38,6 @@ Everyone interacting in the HexletCode project's codebases, issue trackers, chat
 
 ![CI](https://github.com/mmyrtice/rails-project-63/workflows/Rubocop/badge.svg)
 ![Hexlet Check](https://github.com/mmyrtice/rails-project-63/workflows/Hexlet%20Check/badge.svg)
+
+And then execute:
+bundle install
