@@ -1,6 +1,7 @@
-require_relative 'hexlet_code/tag/single.rb'
-require_relative 'hexlet_code/tag/paired'
+# frozen_string_literal: true
 
+require_relative 'hexlet_code/tag/single'
+require_relative 'hexlet_code/tag/paired'
 include HexletCode::Tag::Single
 include HexletCode::Tag::Paired
 
@@ -11,5 +12,4 @@ puts Single.build('img', src: 'path/to/image')
 puts Paired.build('div') { 'Hello, World!' }
 
 # Генерация парного тега без содержимого
-puts Paired.build('p', class: 'paragraph')# frozen_string_literal: true
-
+puts Paired.build('p', class: 'paragraph')
