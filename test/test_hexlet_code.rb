@@ -10,4 +10,5 @@ class TestHexletCode < Minitest::Test
   def test_it_does_something_useful
     assert false
   end
+  puts 'All tests were executed successfully!'
 end

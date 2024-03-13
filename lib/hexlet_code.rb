@@ -5,5 +5,8 @@ require_relative 'hexlet_code/tag/tag'
 
 module HexletCode
   class Error < StandardError; end
-  # Your code goes here...
+
+  def self.form_for(entity, url: '#', &block)
+    "<form action=\"#{url}\" method=\"post\"></form>"
+  end
 end
